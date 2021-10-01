@@ -27,4 +27,4 @@ const useArray = (initialValue) => {
 	return [array, setArray, pushIntoArray, updateArray, removeFromArray, clearArray];
 };
 
-export default useArray;
+export { useArray };
